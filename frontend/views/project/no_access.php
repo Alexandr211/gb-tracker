@@ -1,0 +1,1 @@
+<p class="alert alert-danger">Sorry, but access denied !</p>

@@ -1,0 +1,15 @@
+﻿#Запрещаем просмотр содержимого папки, запрещает Server Side #Include, Включаем отслеживание символических-ссылок
+
+Options All -Indexes -Includes +FollowSymLinks
+
+<IfModule mod_rewrite.c>
+#Включаем механизм преобразований, строка ниже.
+RewriteEngine on 
+
+#Если это не файл и не директория, то перенаправляем на index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index-test.php
+
+</IfModule>
+

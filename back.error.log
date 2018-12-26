@@ -1,0 +1,2 @@
+[Tue Nov 27 13:36:32.386316 2018] [php7:warn] [pid 3705] [client 127.0.0.1:40034] PHP Warning:  file_put_contents(/var/www/gb-tracker/backend/runtime/debug/5bfce5f059bf7.data): failed to open stream: Permission denied in /var/www/gb-tracker/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 67
+[Tue Nov 27 13:36:32.386366 2018] [php7:warn] [pid 3705] [client 127.0.0.1:40034] PHP Warning:  touch(): Utime failed: Permission denied in /var/www/gb-tracker/vendor/yiisoft/yii2-debug/src/LogTarget.php on line 85
