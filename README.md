@@ -12,8 +12,10 @@
        <br>  7. Helpers are also applied in the code.
 
     </p>
-    <br>
-</p> 
+<p>
+If you have any questions, please contact me alexandr211@yandex.ru<br>
+        <br> Thank you.<br>
+</p>
 
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
