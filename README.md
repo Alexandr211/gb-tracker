@@ -2,7 +2,7 @@
 <h4>Hello! My name is Alexander Bashtanov</h4>
     <br>
     The simple Task Tracker is a laconic, functional and free service for project management.<br>
-    <br><h4>Laconic.</h4> Nothing should distract from project implementation. This is the basis for focused work on tasks.<br>
+    <br>Laconic. Nothing should distract from project implementation. This is the basis for focused work on tasks.
     <br>Functional. The necessary functions to control the development of projects and their tasks are ready out of the box.<br>
     <br>Free. Use of this service is completely free. All the time.<br><br>
     </p>
