@@ -2,11 +2,12 @@
 <h4>Hello! My name is Alexander Bashtanov</h4>
     <br>
     The simple Task Tracker is a laconic, functional and free service for project management.<br>
-    <br>Laconic. Nothing should distract from project implementation. This is the basis for focused work on tasks.<br>
+    <br><h4>Laconic.</h4> Nothing should distract from project implementation. This is the basis for focused work on tasks.<br>
     <br>Functional. The necessary functions to control the development of projects and their tasks are ready out of the box.<br>
     <br>Free. Use of this service is completely free. All the time.<br><br>
     </p>
-<p>   <br>During the development of the simple Task Tracker application, the following features of Yii2 advanced template were used.
+<p>   
+        During the development of the simple Task Tracker application, the following features of Yii2 advanced template were used.
         <br>
         <br> 1. The current time at the main page renders with PJAX.
        <br> 2. RBAC and ACF access filters is applied.
@@ -14,7 +15,8 @@
        <br> 4. The Chat based on websocket technology is implemented on the Task page. Each Task has it's own Chat with unique history saved in data base.
        <br>  5. Each project has it's own tasks.
        <br>  6. Restful API functionality is implemented to obtain information about Tasks and to manage only user's tasks (by login and password).
-       <br>  7. Helpers are also applied in the code. </p>
+       <br>  7. Helpers are also applied in the code. 
+</p>
 
 <p>
 If you have any questions, please contact me: alexandr211@yandex.ru<br>
