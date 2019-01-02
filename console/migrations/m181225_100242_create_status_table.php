@@ -16,6 +16,16 @@ class m181225_100242_create_status_table extends Migration
             'id' => $this->primaryKey(),
             'status_name' => $this->string(),
         ]);
+        $this->insert('status', [
+            'status_name' => 'start',
+        ]);
+        $this->insert('status', [
+            'status_name' => 'medium',
+        ]);
+        $this->insert('status', [
+            'status_name' => 'finish',
+        ]);
+        
     }
 
     /**

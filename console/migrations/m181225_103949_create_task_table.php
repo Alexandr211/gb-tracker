@@ -27,7 +27,7 @@ class m181225_103949_create_task_table extends Migration
             'plan_id' => $this->integer()->defaultValue(NULL),
             'implementer_name' => $this->string()->defaultValue(NULL),
             'description' => $this->string(),
-            'date_creation' => $this->dateTime()->notNull(),
+            'date_creation' => $this->dateTime()->defaultExpression('CURRENT_TIMESTAMP'),
             'date_update' => $this->dateTime()->defaultValue(NULL)->append('ON UPDATE CURRENT_TIMESTAMP'),
             'finish_date' => $this->dateTime(),
             'implementer' => $this->integer(),

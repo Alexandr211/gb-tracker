@@ -16,6 +16,13 @@ class m181225_094150_create_plan_table extends Migration
             'id' => $this->primaryKey(),
             'status_plan' => $this->string(),
         ]);
+        $this->insert('plan', [
+            'status_plan' => 'On the go',
+        ]);
+        $this->insert('plan', [
+            'status_plan' => 'Expired',
+        ]);
+        
     }
 
     /**
